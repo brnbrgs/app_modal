@@ -6,14 +6,6 @@
 </ion-header>
 
 <ion-content>
-
-  <!-- <ion-item>
-    <ion-label position="stacked">Sexo</ion-label>
-    <ion-select placeholder="Selecione">
-      <ion-select-option value="f">Feminino</ion-select-option>
-      <ion-select-option value="m">Masculino</ion-select-option>
-    </ion-select>
-  </ion-item> -->
     
   <ion-item>
     <ion-label position="stacked">Peso</ion-label>
@@ -25,7 +17,7 @@
     <ion-input required type="number" [(ngModel)]="altura"></ion-input>
   </ion-item>
 
-  <ion-button shape="round" fill="outline" expand="full" (click)="enviaDados()">
+  <ion-button fill="outline" expand="block" (click)="enviaDados()">
     Calcular
   </ion-button>
   
